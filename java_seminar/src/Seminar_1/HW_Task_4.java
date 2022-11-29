@@ -1,9 +1,6 @@
 package Seminar_1;
 
 public class HW_Task_4 {
-}
-
-class Solution {
     public String reverseWords(String s) {
         int strLen = s.length();
         int a = strLen - 1;

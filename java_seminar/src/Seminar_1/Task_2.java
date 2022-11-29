@@ -1,10 +1,6 @@
 package Seminar_1;
 
 public class Task_2 {
-
-}
-
-class Solution {
     public String addBinary(String a, String b) {
         if (a.length() > b.length()) {
             String t = a;

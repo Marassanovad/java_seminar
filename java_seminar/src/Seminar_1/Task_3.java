@@ -1,9 +1,6 @@
 package Seminar_1;
 
 public class Task_3 {
-}
-
-class Solution {
     public String mergeAlternately(String word1, String word2) {
         StringBuilder sb = new StringBuilder();
 

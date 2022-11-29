@@ -5,9 +5,6 @@ public class Task_1 {
 //        Solution.subtractProductAndSum(int n = 123);
 
     }
-}
-
-class Solution {
     public int subtractProductAndSum(int n) {
         int prod = 1;
         int sum = 0;

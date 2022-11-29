@@ -1,9 +1,6 @@
 package Seminar_1;
 
 public class HW_Task_3 {
-}
-
-class Solution {
     public int removeElement(int[] nums, int val) {
         int copyInd = 0;
         int k = 0;
