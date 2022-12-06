@@ -7,10 +7,12 @@ class TaskMovingAverage {
     Queue<Integer> q = new LinkedList<Integer>();
     int windowSize;
     int sum;
+
     public void MovingAverage(int size) {
         windowSize = size;
         sum = 0;
     }
+
     public double next(int val) {
         sum += val;
         q.add(val);
