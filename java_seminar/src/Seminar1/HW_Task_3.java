@@ -1,4 +1,4 @@
-package Seminar_1;
+package Seminar1;
 
 public class HW_Task_3 {
     public int removeElement(int[] nums, int val) {

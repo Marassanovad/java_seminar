@@ -1,4 +1,4 @@
-package Seminar_1;
+package Seminar1;
 
 public class Task_2 {
     public String addBinary(String a, String b) {

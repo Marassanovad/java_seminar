@@ -1,4 +1,4 @@
-package Seminar_1;
+package Seminar1;
 
 public class Task_1 {
     public static void main(String[] args) {

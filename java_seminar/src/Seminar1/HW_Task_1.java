@@ -1,4 +1,4 @@
-package Seminar_1;
+package Seminar1;
 
 public class HW_Task_1 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {

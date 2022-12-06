@@ -1,4 +1,4 @@
-package Seminar_1;
+package Seminar1;
 
 public class Task_3 {
     public String mergeAlternately(String word1, String word2) {
