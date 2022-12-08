@@ -12,7 +12,8 @@ public class HWTaskSimplifyPath {
         for (int i = 0; i < words.length; i++) {
             if (words[i].equals("") || words[i].equals(".")) {
                 continue;
-            } else if (words[i].equals("..")) {
+            }
+            else if (words[i].equals("..")) {
                 if (!deque.isEmpty()) {
                     deque.pollLast();
                 }
@@ -21,7 +22,8 @@ public class HWTaskSimplifyPath {
         String res = "";
         if (deque.isEmpty()) {
             return "/";
-        } else {
+        }
+        else {
             while (!deque.isEmpty()) {
                 res += "/" + deque.pollFirst();
             }
