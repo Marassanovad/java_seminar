@@ -22,7 +22,7 @@ public class HWTaskCountCommon {
                 counter.put(word, counter.get(word) - 1);
             }
         }
-        for (Map.Entry<String, Integer> pair : counter.entrySet()) {
+        for (var pair : counter.entrySet()) {
             if (pair.getValue() == 0) {
                 count++;
             }
